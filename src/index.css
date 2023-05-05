@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@600&display=swap');
+
+* {
+  /* transition: .3s ease; */
+}
+
+input::placeholder {
+  color: #bdbdbd !important;
+  font-weight: 300;
+}
+
+body {
+  background: #ffffff;
+}
+
+input {
+  color: #4f4f4f !important;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.paragraph {
+  overflow: hidden;
+  height: 50px !important;
+}
+
+.paragraph2 {
+  display: -webkit-box;
+  overflow: hidden;
+  max-width: 100px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:checked,
+input:-webkit-autofill:focus-visible,
+input:-webkit-autofill:target,
+input:-webkit-autofill:focus-within,
+input:-webkit-autofill:visited,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  background-color: transparent;
+}
+
+.card-image {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+.image-corusel {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  width: 713px;
+}
+
+.title-s {
+  text-decoration: 1px solid #828282 !important;
+}
